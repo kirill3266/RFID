@@ -6,7 +6,7 @@
 #include <iostream>
 
 #define GNUPLOT_NAME "gnuplot -persist"
-#define DIR "YOUR_DIR"
+#define DIR "C:\\Users\\kakir\\CLionProjects\\article"
 
 class Gnuplot {
 public:

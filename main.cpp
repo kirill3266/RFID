@@ -86,16 +86,18 @@ int main() {
 
 
     plot("set title \"RFID\" font \"Times, 20\"");
-    plot("set xrange [1:40]");
+    plot("set xrange [0:40]");
     plot("set yrange [0:1]");
     plot("set grid");
 //for N;
     plot("set xlabel \"N\"");
     plot("set ylabel \"P\"");
+    plot("set key title \"Q = 2\""); //replace Q here
     plot("plot \"Out.txt\" using 1:3 with lines title \"Pr_{success}\" lw 3 lc \"green\", \"Out.txt\" using 1:4 with lines title \"Pr_{conflict}\" lw 3 lc \"red\", \"Out.txt\" using 1:5 with lines title \"Pr_{empty}\" lw 3lc \"blue\"");
 ////for Q; Needs to add the way to Out file
 //    plot("set xlabel \"Q\"");
 //    plot("set ylabel \"P\"");
+//    plot("set key title \"N = \""); //replace N here
 //    plot("plot \"Out.txt\" using 2:3 with lines title \"Pr_{success}\" lw 3 lc \"green\", \"Out.txt\" using 2:4 with lines title \"Pr_{conflict}\" lw 3 lc \"red\", \"Out.txt\" using 2:5 with lines title \"Pr_{empty}\" lw 3 lc \"blue\"");
 
     fclose(file);
