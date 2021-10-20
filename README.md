@@ -5,6 +5,6 @@ ____
 
 #User guide
 1. Install gnuplot
-    2. clone this repo
-        3. In gnuplot.h replace YOUR_DIR to your's cloned repo source
-            4. Enjoy
+    1. clone this repo
+        1. In gnuplot.h replace YOUR_DIR to your's cloned repo source
+            1. Enjoy
