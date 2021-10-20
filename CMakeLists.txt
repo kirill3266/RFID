@@ -3,4 +3,4 @@ project(article)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(article main.cpp)
+add_executable(article main.cpp gnuplot.cpp)
