@@ -4,6 +4,9 @@ ____
 
 ____
 
+![](https://github.com/kirill3266/RFID/blob/main/Example.PNG)
+
+
 <p align = center >User guide</p>
 
 1. Install gnuplot
